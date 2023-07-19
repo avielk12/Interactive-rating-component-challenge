@@ -11,28 +11,25 @@ The designs were created to the following widths:
 
 ### Primary
 
-Moderate violet: #7541c8
-Very dark grayish blue: #48556a
-Very dark blackish blue: #19212e
-White: #ffffff
+- Dark cyan: #3c8067
+- Cream: #f2ebe3
 
 ### Neutral
 
-Light gray: #cfcfcf
-Light grayish blue: #ecf2f8
-
-Note for text colors:
-
-1. "Verified Graduate" has the same color as the person's name with 50% opacity
-2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+- Very dark blue: #1c232b
+- Dark grayish blue: #6c7289
+- White: #ffffff
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 13px
+- Font size (paragraph): 14px
 
 ### Font
 
-- Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
-- Weights: 500, 600
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
