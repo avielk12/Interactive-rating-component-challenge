@@ -11,25 +11,25 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark cyan: #3c8067
-- Cream: #f2ebe3
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
 
 ### Neutral
 
-- Very dark blue: #1c232b
-- Dark grayish blue: #6c7289
-- White: #ffffff
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 14px
+- Font size: 15px
 
 ### Font
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700

@@ -6,33 +6,34 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
-    <title>Product preview card component challenge</title>
+    <title>3-column preview component challenge</title>
 
   </head>
   <body>
     <div class="card">
-      <div class="img-container">
-        <img src="images/image-product-desktop.jpg" alt="perfume" class="img-container">
-      </div>
-      
-      <div class="detailes-container">
-        <p class="head">PERFUME</p>
-        <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
-        <p class="information">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.</p>
-        <div class="price-container">
-          <p class="current-price">$149.99</p>
-          <p class="old-price">$169.99</p>
+      <div id="left" class="container">
+          <img src="images/icon-sedans.svg" alt="sedans img">
+          <h1 class="head">SEDANS</h1>
+          <p class="info">Choose a sedan for its affordability and excellent fuel economy. 
+          Ideal for cruising in the city or on your next road trip.</p>
+          <button class="btn">Learn More</button>
         </div>
-        <button class="btn">
-          <img src="images/icon-cart.svg" alt="">
-          Add to Cart
-        </button>
+
+      <div id="center" class="container">
+          <img src="images/icon-suvs.svg" alt="suvs img">
+          <h1 class="head">SUVS</h1>
+          <p class="info">Take an SUV for its spacious interior, power, and versatility. 
+          Perfect for your next family vacation and off-road adventures.</p>
+          <button class="btn">Learn More</button>
+      </div>
+
+      <div id="right" class="container">
+          <img src="images/icon-luxury.svg" alt="luxury img">
+          <h1 class="head">LUXURY</h1>
+          <p class="info">Cruise in the best car brands without the bloated prices. 
+          Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+          <button class="btn">Learn More </button>
       </div>
     </div>
-
-
-    
-    
   </body>
 </html>
