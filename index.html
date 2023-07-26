@@ -3,37 +3,66 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
-    <title>3-column preview component challenge</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+    <title>Results summary component</title>
+
 
   </head>
   <body>
     <div class="card">
-      <div id="left" class="container">
-          <img src="images/icon-sedans.svg" alt="sedans img">
-          <h1 class="head">SEDANS</h1>
-          <p class="info">Choose a sedan for its affordability and excellent fuel economy. 
-          Ideal for cruising in the city or on your next road trip.</p>
-          <button class="btn">Learn More</button>
+      <div class="card-container">
+        <div class="result">
+          <h3 class="title">Your Result</h3>
+          <div class="circle">
+            <h1>76</h1>
+            <p>of 100</p>
+          </div>
+          <b>Great</b>
+          <p class="info">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
 
-      <div id="center" class="container">
-          <img src="images/icon-suvs.svg" alt="suvs img">
-          <h1 class="head">SUVS</h1>
-          <p class="info">Take an SUV for its spacious interior, power, and versatility. 
-          Perfect for your next family vacation and off-road adventures.</p>
-          <button class="btn">Learn More</button>
+        <div class="summary">
+          <h3 class="title">Summary</h3>
+          <div class="rows">
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-reaction.svg" alt="">
+                <b>Reaction</b>
+              </div>
+              <p><b>80</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-memory.svg" alt="">
+                <b>Memory</b>
+              </div>
+              <p><b>92</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-verbal.svg" alt="">
+                <b>Verbal</b>
+              </div>
+              <p><b>61</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-visual.svg" alt="">
+                <b>Visual</b>
+              </div>
+              <p><b>72</b> / 100</p>
+            </div>
+          </div>
+          <button class="btn">Continue</button>
+        </div>
       </div>
-
-      <div id="right" class="container">
-          <img src="images/icon-luxury.svg" alt="luxury img">
-          <h1 class="head">LUXURY</h1>
-          <p class="info">Cruise in the best car brands without the bloated prices. 
-          Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-          <button class="btn">Learn More </button>
-      </div>
+      
     </div>
+
+    
   </body>
 </html>
