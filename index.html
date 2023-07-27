@@ -3,66 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    
-    <title>Results summary component</title>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Four card feature section</title>
 
   </head>
   <body>
-    <div class="card">
-      <div class="card-container">
-        <div class="result">
-          <h3 class="title">Your Result</h3>
-          <div class="circle">
-            <h1>76</h1>
-            <p>of 100</p>
-          </div>
-          <b>Great</b>
-          <p class="info">
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </div>
+    <div class="container">
+      <div class="head-section">
+        <h1 class="main-title">Reliable, efficient delivery</h1>
+        <h1 class="second-title">Powered by Technology</h1>
+        <p>Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</p>
+      </div>
 
-        <div class="summary">
-          <h3 class="title">Summary</h3>
-          <div class="rows">
-            <div class="row">
-              <div class="badge">
-                <img src="./assets/images/icon-reaction.svg" alt="">
-                <b>Reaction</b>
-              </div>
-              <p><b>80</b> / 100</p>
-            </div>
-            <div class="row">
-              <div class="badge">
-                <img src="./assets/images/icon-memory.svg" alt="">
-                <b>Memory</b>
-              </div>
-              <p><b>92</b> / 100</p>
-            </div>
-            <div class="row">
-              <div class="badge">
-                <img src="./assets/images/icon-verbal.svg" alt="">
-                <b>Verbal</b>
-              </div>
-              <p><b>61</b> / 100</p>
-            </div>
-            <div class="row">
-              <div class="badge">
-                <img src="./assets/images/icon-visual.svg" alt="">
-                <b>Visual</b>
-              </div>
-              <p><b>72</b> / 100</p>
-            </div>
+      <div class="cards">
+        <div class="card card-1">
+          <h3 class="title">Supervisor</h3>
+          <p class="info">Monitors activity to identify project roadblocks</p>
+          <img src="images/icon-supervisor.svg" alt="">
+        </div>
+        <div class="center">
+          <div class="card card-2">
+            <h3 class="title">Team Builder</h3>
+            <p class="info">Scans our talent network to create the optimal team for your project</p>
+            <img src="images/icon-team-builder.svg" alt="">
           </div>
-          <button class="btn">Continue</button>
+          <div class="card card-3">
+            <h3 class="title">Karma</h3>
+            <p class="info">Regularly evaluates our talent to ensure quality</p>
+            <img src="images/icon-karma.svg" alt="">
+          </div>
+        </div>
+        <div class="card card-4">
+          <h3 class="title">Calculator</h3>
+          <p class="info">Uses data from past projects to provide better delivery estimates</p>
+          <img src="images/icon-calculator.svg" alt="">
         </div>
       </div>
-      
     </div>
+    
+
 
     
+
   </body>
 </html>
