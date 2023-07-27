@@ -1,22 +1,29 @@
-  Your Result
-  76
-  of 100
+    Reliable, efficient delivery
+    Powered by Technology
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+    Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful
 
-  Reaction
-  80 / 100
+    Supervisor
+    Monitors activity to identify project roadblocks
 
-  Memory
-  92 / 100
+    Team Builder
+    Scans our talent network to create the optimal team for your project
 
-  Verbal
-  61 / 100
+    Karma
+    Regularly evaluates our talent to ensure quality
 
-  Visual
-  72 / 100
+    Calculator
+    Uses data from past projects to provide better delivery estimates
 
-  Continue
+    .card:nth-child(2) {
+    border: 2px solid black;
+}
+
+.card:nth-child(3) {
+    border: 2px solid black;
+}
+
+.card:nth-child(4) {
+    border: 2px solid black;
+}
