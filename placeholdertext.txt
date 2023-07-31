@@ -1,29 +1,23 @@
-    Reliable, efficient delivery
-    Powered by Technology
+  <!-- Rating state start -->
 
-    Our Artificial Intelligence powered tools use millions of project data points 
-    to ensure that your project is successful
+  How did we do?
 
-    Supervisor
-    Monitors activity to identify project roadblocks
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
 
-    Team Builder
-    Scans our talent network to create the optimal team for your project
+  1 2 3 4 5
 
-    Karma
-    Regularly evaluates our talent to ensure quality
+  Submit
 
-    Calculator
-    Uses data from past projects to provide better delivery estimates
+  <!-- Rating state end -->
 
-    .card:nth-child(2) {
-    border: 2px solid black;
-}
+  <!-- Thank you state start -->
 
-.card:nth-child(3) {
-    border: 2px solid black;
-}
+  You selected <!-- Add rating here --> out of 5
 
-.card:nth-child(4) {
-    border: 2px solid black;
-}
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  <!-- Thank you state end -->

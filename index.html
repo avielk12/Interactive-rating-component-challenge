@@ -7,47 +7,42 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
     
-    <title>Four card feature section</title>
+    <title>Interactive rating component</title>
+
 
   </head>
   <body>
-    <div class="container">
-      <div class="head-section">
-        <h1 class="main-title">Reliable, efficient delivery</h1>
-        <h1 class="second-title">Powered by Technology</h1>
-        <p>Our Artificial Intelligence powered tools use millions of project data points 
-          to ensure that your project is successful</p>
+      <div class="main-card">
+        <div class="img-container">
+          <img class="star" src="images/icon-star.svg" alt="">
+        </div>
+        <div class="msg">
+          <h2>How did we do?</h2>
+          <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        </div>
+        <div class="rating">
+          <button class="btn-1 select">1</button>
+          <button class="btn-2 select">2</button>
+          <button class="btn-3 select">3</button>
+          <button class="btn-4 select">4</button>
+          <button class="btn-5 select">5</button>
+        </div>
+        <button class="submit">SUBMIT</button>
       </div>
 
-      <div class="cards">
-        <div class="card card-1">
-          <h3 class="title">Supervisor</h3>
-          <p class="info">Monitors activity to identify project roadblocks</p>
-          <img src="images/icon-supervisor.svg" alt="">
-        </div>
-        <div class="center">
-          <div class="card card-2">
-            <h3 class="title">Team Builder</h3>
-            <p class="info">Scans our talent network to create the optimal team for your project</p>
-            <img src="images/icon-team-builder.svg" alt="">
-          </div>
-          <div class="card card-3">
-            <h3 class="title">Karma</h3>
-            <p class="info">Regularly evaluates our talent to ensure quality</p>
-            <img src="images/icon-karma.svg" alt="">
-          </div>
-        </div>
-        <div class="card card-4">
-          <h3 class="title">Calculator</h3>
-          <p class="info">Uses data from past projects to provide better delivery estimates</p>
-          <img src="images/icon-calculator.svg" alt="">
-        </div>
+      <div class="thank-you hidden">
+        <img class="phone" src="images/illustration-thank-you.svg" alt="">
+        <p class="score">
+          You selected 
+          <span id="grade"></span>
+          out of 5
+        </p>
+        <h2>Thank you!</h2>
+        <p class="msg">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
       </div>
-    </div>
-    
 
-
-    
-
+      <script src="index.js"></script>
   </body>
 </html>
